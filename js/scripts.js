@@ -1,9 +1,8 @@
 
 
 var myButton = document.getElementById("clickButton");
-var myText = document.getElementById("helloText");
 
-myButton.addEventListener('click', doSomething, false)
+myButton.addEventListener('click', doSomething, false);
 
 function doSomething() {
 	let input = document.getElementById('input');
@@ -15,9 +14,7 @@ function doSomething() {
   ul.appendChild(li);
 
 
-  input.value = ""
-};
+  input.value = "";
+}
 
-
-const body = document.querySelector('body');
 document.getElementById("myForm").addEventListener("submit", doSomething);
